@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="description" content="UNKNOWN — dating, on your terms. Adults 18+."><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#090909"><title>UNKNOWN — Dating, on your terms</title>
+<style>
+:root{--bg:#090909;--panel:#121212;--panel2:#191919;--line:#2a2a2a;--muted:#999;--text:#f5f5f5;--silver:#c7c7c7;--silver2:#858585;--radius:20px}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,textarea,select{font:inherit}button{cursor:pointer;color:inherit}.app{max-width:520px;min-height:100dvh;margin:auto;padding-bottom:88px;background:linear-gradient(180deg,#0b0b0b,#090909)}header{height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;border-bottom:1px solid #202020;position:sticky;top:0;background:#090909ed;backdrop-filter:blur(14px);z-index:5}.wordmark{font-weight:850;letter-spacing:.23em;font-size:19px}.wordmark span{color:#8d8d8d}.header-actions{display:flex;gap:9px}.iconbtn{width:39px;height:39px;border:1px solid var(--line);background:#151515;border-radius:50%;font-size:17px}.page{display:none;padding:22px 18px}.page.active{display:block}.eyebrow{font-size:11px;letter-spacing:.18em;color:#aaa;text-transform:uppercase;font-weight:700}.title{font-size:30px;letter-spacing:-.04em;line-height:1.05;margin:8px 0 8px}.sub{color:var(--muted);margin:0 0 20px}.toolbar{display:flex;gap:8px;overflow:auto;padding:2px 0 14px}.pill{white-space:nowrap;border:1px solid #333;background:#151515;padding:9px 13px;border-radius:99px;color:#ccc;font-size:12px}.pill.active{background:#e5e5e5;color:#111;border-color:#e5e5e5}.profile-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.person{position:relative;min-height:210px;aspect-ratio:.78;border-radius:17px;overflow:hidden;border:1px solid #292929;background:radial-gradient(ellipse at 50% 25%,#666,#292929 35%,#171717 72%);display:flex;align-items:end}.person:nth-child(3n+2){background:radial-gradient(ellipse at 50% 20%,#555,#242424 39%,#111 75%)}.person:nth-child(3n){background:radial-gradient(ellipse at 50% 30%,#777,#333 32%,#141414 76%)}.person:before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 25%,#0002 45%,#000e 100%)}.avatar-art{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:72px;color:#d0d0d0;opacity:.8;filter:grayscale(1)}.person-info{position:relative;padding:12px;width:100%}.person-name{font-size:16px;font-weight:750}.person-meta{font-size:12px;color:#d0d0d0}.online{display:inline-block;width:7px;height:7px;background:#bdbdbd;border-radius:50%;margin-right:5px}.card-actions{display:flex;gap:8px;margin-top:10px}.smallbtn{flex:1;padding:9px 4px;border:1px solid #444;background:#151515;border-radius:11px;font-size:12px}.smallbtn.primary{background:#e6e6e6;color:#111;border-color:#e6e6e6}.section-head{display:flex;align-items:end;justify-content:space-between;margin:0 0 14px}.linkbtn{background:none;border:0;color:#d0d0d0;text-decoration:underline;font-size:12px}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(520px,100%);display:grid;grid-template-columns:repeat(4,1fr);padding:10px 10px calc(10px + env(safe-area-inset-bottom));background:#101010f2;backdrop-filter:blur(15px);border-top:1px solid #282828;z-index:8}.nav button{background:none;border:0;color:#777;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;font-size:10px;padding:4px}.nav button b{font-size:19px;font-weight:500}.nav button.active{color:#f2f2f2}.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:14px 0}.field{display:flex;flex-direction:column;gap:7px;margin:13px 0}.field label{font-size:12px;color:#bbb}.field input,.field textarea,.field select{width:100%;background:#090909;border:1px solid #333;border-radius:12px;padding:12px;color:#f4f4f4;outline:none}.field textarea{min-height:90px;resize:vertical}.btn{border:1px solid #ddd;background:#e8e8e8;color:#111;padding:12px 15px;border-radius:13px;font-weight:750;width:100%}.btn.secondary{background:#171717;color:#eee;border-color:#393939}.btn.danger{background:#251414;color:#f4dada;border-color:#5b3333}.btnrow{display:flex;gap:9px;margin-top:12px}.btnrow .btn{flex:1}.chatlist{display:flex;flex-direction:column;gap:8px}.chatitem{display:flex;gap:12px;align-items:center;padding:13px;background:#131313;border:1px solid #292929;border-radius:15px;text-align:left;width:100%}.bubble-avatar{width:45px;height:45px;border-radius:50%;background:linear-gradient(135deg,#666,#222);display:grid;place-items:center;font-weight:800;color:#eee;flex-shrink:0}.chatcopy{flex:1;min-width:0}.chatcopy strong{display:block}.chatcopy small{display:block;color:#999;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.time{font-size:10px;color:#777}.empty{padding:25px 14px;text-align:center;color:#999;border:1px dashed #333;border-radius:15px}.profile-hero{height:250px;border-radius:22px;border:1px solid #333;background:radial-gradient(ellipse at 50% 30%,#777,#333 38%,#111 78%);display:flex;align-items:center;justify-content:center;font-size:90px;color:#ddd;filter:grayscale(1)}.tagrow{display:flex;gap:7px;flex-wrap:wrap}.tag{font-size:11px;color:#ccc;background:#202020;border:1px solid #333;border-radius:99px;padding:7px 10px}.notice{font-size:12px;color:#999;line-height:1.5}.modal{display:none;position:fixed;inset:0;background:#000b;z-index:20;align-items:end;justify-content:center}.modal.open{display:flex}.sheet{width:min(520px,100%);background:#141414;border:1px solid #333;border-radius:24px 24px 0 0;padding:22px 18px calc(24px + env(safe-area-inset-bottom));max-height:88dvh;overflow:auto}.sheettop{display:flex;justify-content:space-between;align-items:center}.xbtn{background:#292929;border:0;border-radius:50%;width:34px;height:34px}.toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%);background:#eee;color:#111;border-radius:99px;padding:10px 15px;font-size:12px;display:none;z-index:30;white-space:nowrap}.toast.show{display:block}.safety{display:flex;gap:10px;align-items:start}.safety b{display:block}.safety p{margin:4px 0;color:#999;font-size:12px}.switch{accent-color:#eee;width:18px;height:18px}.messagebox{height:48dvh;overflow:auto;display:flex;flex-direction:column;gap:10px;padding:10px 0}.msg{max-width:80%;padding:11px 13px;border-radius:16px;background:#242424;color:#eee;align-self:flex-start}.msg.mine{background:#e5e5e5;color:#111;align-self:flex-end}.sendrow{display:flex;gap:8px}.sendrow input{flex:1;min-width:0;background:#080808;border:1px solid #333;border-radius:99px;padding:12px;color:#fff}.sendrow button{width:48px;border-radius:50%;border:0;background:#e5e5e5;color:#111;font-weight:800}.small{font-size:11px;color:#777}.divider{height:1px;background:#292929;margin:16px 0}@media(min-width:521px){body{background:#202020}.app{border-left:1px solid #282828;border-right:1px solid #282828}}
+
+.auth-screen{min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px 18px;background:radial-gradient(ellipse at 50% 0%,#242424 0%,#090909 58%);color:var(--text)}
+.auth-card{width:min(440px,100%);background:#111;border:1px solid #303030;border-radius:24px;padding:25px 20px;box-shadow:0 20px 70px #0008}
+.auth-mark{text-align:center;font-size:27px;font-weight:900;letter-spacing:.25em;margin:2px 0 8px}.auth-mark span{color:#888}
+.auth-tagline{text-align:center;color:#999;margin:0 0 24px;font-size:13px}
+.auth-tabs{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:5px;background:#080808;border:1px solid #292929;border-radius:14px;margin-bottom:20px}
+.auth-tabs button{border:0;background:transparent;color:#999;border-radius:10px;padding:10px;font-weight:700}
+.auth-tabs button.active{background:#e5e5e5;color:#111}
+.auth-heading{font-size:24px;letter-spacing:-.04em;margin:0 0 6px}
+.auth-copy{color:#999;font-size:13px;margin:0 0 18px}
+.auth-screen .field{margin:12px 0}.auth-screen .field input{padding:13px}
+.auth-error{display:none;border:1px solid #633737;background:#271414;color:#f3d6d6;padding:11px 12px;border-radius:12px;font-size:12px;margin:12px 0}
+.auth-status{display:none;border:1px solid #3b3b3b;background:#191919;color:#ddd;padding:12px;border-radius:12px;font-size:12px;margin:12px 0}
+.auth-check{display:flex;gap:9px;align-items:flex-start;font-size:12px;color:#bbb;margin:14px 0}.auth-check input{accent-color:#eee;margin-top:3px;flex-shrink:0}
+.auth-foot{font-size:11px;color:#777;line-height:1.5;margin:17px 0 0;text-align:center}
+.auth-link{background:none;border:0;color:#ddd;text-decoration:underline;padding:10px 0 0;font-size:12px;width:100%}
+.auth-screen[hidden],.app[hidden]{display:none!important}
+</style></head>
+<body>
+<div id="authScreen" class="auth-screen">
+  <div class="auth-card">
+    <div class="auth-mark">UN<span>K</span>NOWN</div>
+    <p class="auth-tagline">Dating, on your terms.</p>
+    <div class="auth-tabs" role="tablist" aria-label="Account access">
+      <button id="showLoginTab" class="active" type="button" onclick="setAuthMode('login')">Sign in</button>
+      <button id="showSignupTab" type="button" onclick="setAuthMode('signup')">Create account</button>
+    </div>
+    <h1 id="authHeading" class="auth-heading">Welcome back.</h1>
+    <p id="authCopy" class="auth-copy">Sign in to continue to UNKNOWN.</p>
+    <form id="authForm">
+      <div id="displayNameField" class="field" hidden>
+        <label for="authDisplayName">Display name</label>
+        <input id="authDisplayName" type="text" maxlength="30" autocomplete="nickname" placeholder="What should people call you?">
+      </div>
+      <div class="field">
+        <label for="authEmail">Email address</label>
+        <input id="authEmail" type="email" autocomplete="email" required maxlength="254" placeholder="you@example.com">
+      </div>
+      <div class="field">
+        <label for="authPassword">Password</label>
+        <input id="authPassword" type="password" autocomplete="current-password" required minlength="8" maxlength="128" placeholder="At least 8 characters">
+      </div>
+      <label id="adultCheckRow" class="auth-check" hidden>
+        <input id="adultCheck" type="checkbox">
+        <span>I confirm that I am 18 years of age or older and agree to use UNKNOWN respectfully.</span>
+      </label>
+      <div id="authError" class="auth-error" role="alert"></div>
+      <div id="authStatus" class="auth-status" role="status"></div>
+      <button id="authSubmit" class="btn" type="submit">Sign in</button>
+    </form>
+    <button id="forgotPassword" class="auth-link" type="button" onclick="sendPasswordReset()">Forgot your password?</button>
+    <p class="auth-foot">Never share your password or verification links. This prototype uses email authentication; an age checkbox is not identity or age verification.</p>
+  </div>
+</div>
+<div class="app" id="mainApp" hidden><header><div class="wordmark">UN<span>K</span>NOWN</div><div class="header-actions"><button class="iconbtn" aria-label="Filters" onclick="openFilters()">☷</button><button class="iconbtn" aria-label="Safety" onclick="showPage('profile');document.getElementById('safetyCard').scrollIntoView({behavior:'smooth'})">⌑</button></div></header>
+<main>
+<section id="discover" class="page active"><div class="eyebrow">Your next connection</div><h1 class="title">Less noise.<br>More chemistry.</h1><p class="sub">Meet people on your terms.</p><div class="toolbar"><button class="pill active" onclick="setFilter(this,'All')">Discover</button><button class="pill" onclick="setFilter(this,'Online')">Online now</button><button class="pill" onclick="setFilter(this,'New')">New here</button><button class="pill" onclick="openFilters()">＋ Filters</button></div><div class="section-head"><div><div class="eyebrow">Around your world</div><strong id="resultCount">People to discover</strong></div><button class="linkbtn" onclick="toast('Precise location is off in this prototype.')">Location settings</button></div><div class="profile-grid" id="peopleGrid"></div><p class="notice" style="margin-top:16px">Demo profiles only. No real people or live location data are shown. UNKNOWN never needs your exact location to let you explore this prototype.</p></section>
+<section id="likes" class="page"><div class="eyebrow">A little interest</div><h1 class="title">Your likes.</h1><p class="sub">Profiles you've saved for later.</p><div id="likesGrid" class="profile-grid"></div><div id="likesEmpty" class="empty">Your saved profiles will show up here.<br>Tap ♡ on someone you like.</div></section>
+<section id="messages" class="page"><div class="eyebrow">Make the first move</div><h1 class="title">Messages.</h1><p class="sub">Start a conversation. Keep it respectful.</p><div id="chatList" class="chatlist"></div><div id="chatEmpty" class="empty">No conversations yet.<br>Open a profile and say hello.</div></section>
+<section id="profile" class="page"><div class="eyebrow">Your space</div><h1 class="title">Your profile.</h1><p class="sub">Show as much or as little as feels right.</p><div class="profile-hero">✦</div><div class="panel"><div class="field"><label>Display name</label><input id="myName" maxlength="30" placeholder="What should people call you?"></div><div class="field"><label>Age (18+ only)</label><input id="myAge" type="number" min="18" max="99" placeholder="18 or older"></div><div class="field"><label>About me</label><textarea id="myBio" maxlength="300" placeholder="A little about your vibe..."></textarea></div><div class="field"><label>Looking for</label><select id="myLooking"><option>Everything</option><option>Hookups</option><option>Dating</option><option>Friends</option><option>Chat</option></select></div><div class="field"><label>Interests (comma-separated)</label><input id="myInterests" maxlength="120" placeholder="Music, coffee, hiking..."></div><button class="btn" onclick="saveProfile()">Save my profile</button><p class="notice">Saved only in this browser on this device. This prototype does not upload your details.</p></div>
+<div class="panel" id="safetyCard"><div class="eyebrow">Your safety matters</div><h3 style="margin:8px 0">Boundaries are a feature.</h3><div class="safety"><div>◈</div><div><b>Hide distance</b><p>Never display a precise distance or exact location.</p></div><input id="hideDistance" class="switch" type="checkbox" checked></div><div class="divider"></div><div class="safety"><div>◈</div><div><b>Private by default</b><p>Don't share your address, workplace, or identifying details with strangers.</p></div></div><div class="divider"></div><button class="btn secondary" onclick="openSafety()">Blocked profiles & safety tools</button></div>
+<div class="panel"><div class="eyebrow">Account</div><p id="signedInEmail" style="overflow-wrap:anywhere;color:#ccc"></p><button class="btn secondary" onclick="signOutUser()">Sign out</button><p class="notice">Your account uses Supabase authentication. Profile details, likes, chats, and moderation are still local demo features and are not yet stored securely in the database.</p></div></section>
+</main><nav class="nav"><button class="active" data-page="discover" onclick="showPage('discover')"><b>⌕</b>Discover</button><button data-page="likes" onclick="showPage('likes')"><b>♡</b>Likes</button><button data-page="messages" onclick="showPage('messages')"><b>▤</b>Messages</button><button data-page="profile" onclick="showPage('profile')"><b>◉</b>Profile</button></nav></div>
+<div class="modal" id="profileModal" onclick="outsideClose(event,'profileModal')"><div class="sheet"><div class="sheettop"><div class="eyebrow">A closer look</div><button class="xbtn" onclick="closeModal('profileModal')">✕</button></div><div id="modalContent"></div></div></div>
+<div class="modal" id="filtersModal" onclick="outsideClose(event,'filtersModal')"><div class="sheet"><div class="sheettop"><h2 style="margin:0">Discover filters</h2><button class="xbtn" onclick="closeModal('filtersModal')">✕</button></div><p class="notice">Filters are local demo controls; they do not use GPS.</p><div class="field"><label>Age range</label><div style="display:flex;gap:10px"><input id="ageMin" type="number" min="18" max="99" value="18" aria-label="Minimum age"><input id="ageMax" type="number" min="18" max="99" value="45" aria-label="Maximum age"></div></div><div class="field"><label>Looking for</label><select id="filterLooking"><option>Any</option><option>Hookups</option><option>Dating</option><option>Friends</option><option>Chat</option></select></div><button class="btn" onclick="applyFilters()">Show people</button></div></div>
+<div class="modal" id="safetyModal" onclick="outsideClose(event,'safetyModal')"><div class="sheet"><div class="sheettop"><h2 style="margin:0">Safety tools</h2><button class="xbtn" onclick="closeModal('safetyModal')">✕</button></div><p class="notice">Blocked profiles are hidden from this demo on this device. In a real launch, reporting needs a review process and account-level enforcement.</p><h3>Blocked profiles</h3><div id="blockedList" class="chatlist"></div><div class="divider"></div><div class="safety"><div>✓</div><div><b>Meet thoughtfully</b><p>Meet in public first, tell a trusted friend, and don't feel pressured to share photos or personal details.</p></div></div><div class="safety"><div>✓</div><div><b>Consent comes first</b><p>Respect boundaries. Block anyone who makes you feel unsafe.</p></div></div></div></div>
+<div class="modal" id="chatModal" onclick="outsideClose(event,'chatModal')"><div class="sheet"><div class="sheettop"><div><div class="eyebrow">Private conversation · demo</div><h2 id="chatTitle" style="margin:4px 0"></h2></div><button class="xbtn" onclick="closeModal('chatModal')">✕</button></div><div id="chatMessages" class="messagebox"></div><div class="sendrow"><input id="chatInput" placeholder="Write a message…" maxlength="500" onkeydown="if(event.key==='Enter')sendMessage()"><button onclick="sendMessage()">↑</button></div><p class="notice">Messages stay on this device in this prototype. Real chat requires a backend and abuse reporting.</p></div></div>
+<div id="toast" class="toast"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+
+// Browser-safe Supabase configuration. Never put a secret/service_role key in frontend code.
+const SUPABASE_URL = 'https://nwibucdhxnswdtkfdvrd.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_dYW0s5l88nJy7p0VUmTZmA_WLOOvKa4';
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+let authMode = 'login';
+
+function setAuthMode(mode) {
+  authMode = mode;
+  const signup = mode === 'signup';
+  document.getElementById('showLoginTab').classList.toggle('active', !signup);
+  document.getElementById('showSignupTab').classList.toggle('active', signup);
+  document.getElementById('authHeading').textContent = signup ? 'Make your entrance.' : 'Welcome back.';
+  document.getElementById('authCopy').textContent = signup ? 'Create your UNKNOWN account with your email.' : 'Sign in to continue to UNKNOWN.';
+  document.getElementById('authSubmit').textContent = signup ? 'Create account' : 'Sign in';
+  document.getElementById('displayNameField').hidden = !signup;
+  document.getElementById('authDisplayName').required = signup;
+  document.getElementById('adultCheckRow').hidden = !signup;
+  document.getElementById('adultCheck').required = signup;
+  document.getElementById('authPassword').autocomplete = signup ? 'new-password' : 'current-password';
+  document.getElementById('forgotPassword').hidden = signup;
+  clearAuthMessages();
+}
+function clearAuthMessages() {
+  const err = document.getElementById('authError');
+  const status = document.getElementById('authStatus');
+  err.textContent = ''; err.style.display = 'none';
+  status.textContent = ''; status.style.display = 'none';
+}
+function showAuthError(message) {
+  const el = document.getElementById('authError');
+  el.textContent = message; el.style.display = 'block';
+}
+function showAuthStatus(message) {
+  const el = document.getElementById('authStatus');
+  el.textContent = message; el.style.display = 'block';
+}
+function setAuthBusy(busy) {
+  const btn = document.getElementById('authSubmit');
+  btn.disabled = busy;
+  btn.textContent = busy ? 'Please wait…' : (authMode === 'signup' ? 'Create account' : 'Sign in');
+}
+function showSignedInApp(user) {
+  document.getElementById('authScreen').hidden = true;
+  document.getElementById('mainApp').hidden = false;
+  const email = document.getElementById('signedInEmail');
+  if (email) email.textContent = user?.email || 'Signed in';
+}
+function showSignedOutScreen() {
+  document.getElementById('mainApp').hidden = true;
+  document.getElementById('authScreen').hidden = false;
+  setAuthMode('login');
+}
+document.getElementById('authForm').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  clearAuthMessages();
+  const email = document.getElementById('authEmail').value.trim();
+  const password = document.getElementById('authPassword').value;
+  const displayName = document.getElementById('authDisplayName').value.trim();
+  if (password.length < 8) { showAuthError('Use a password with at least 8 characters.'); return; }
+  if (authMode === 'signup' && !document.getElementById('adultCheck').checked) {
+    showAuthError('Please confirm that you are 18 or older to create an account.'); return;
+  }
+  setAuthBusy(true);
+  try {
+    if (authMode === 'signup') {
+      const { data, error } = await supabaseClient.auth.signUp({
+        email, password,
+        options: {
+          emailRedirectTo: 'https://shaydonp18.github.io/unknown/',
+          data: { display_name: displayName, age_confirmed_18_plus: true }
+        }
+      });
+      if (error) throw error;
+      if (data.session) {
+        showSignedInApp(data.user);
+        toast('Welcome to UNKNOWN.');
+      } else {
+        showAuthStatus('Check your email for a confirmation link. After confirming, return here and sign in. If the email does not arrive, check spam.');
+      }
+    } else {
+      const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
+      if (error) throw error;
+      showSignedInApp(data.user);
+      toast('Signed in successfully.');
+    }
+  } catch (error) {
+    const msg = String(error?.message || 'Something went wrong. Please try again.');
+    if (/invalid login credentials/i.test(msg)) showAuthError('Email or password is incorrect.');
+    else if (/user already registered/i.test(msg)) showAuthError('An account already exists for this email. Try signing in instead.');
+    else showAuthError(msg);
+  } finally {
+    setAuthBusy(false);
+  }
+});
+async function sendPasswordReset() {
+  clearAuthMessages();
+  const email = document.getElementById('authEmail').value.trim();
+  if (!email) { showAuthError('Enter your email address first, then tap “Forgot your password?”.'); return; }
+  try {
+    const { error } = await supabaseClient.auth.resetPasswordForEmail(email, {
+      redirectTo: 'https://shaydonp18.github.io/unknown/'
+    });
+    if (error) throw error;
+    showAuthStatus('If an account exists for that email, a password-reset link will be sent. Check your inbox and spam folder.');
+  } catch (error) {
+    showAuthError(error?.message || 'Could not send the reset email. Please try again.');
+  }
+}
+async function signOutUser() {
+  const { error } = await supabaseClient.auth.signOut();
+  if (error) { toast('Could not sign out. Please try again.'); return; }
+  showSignedOutScreen();
+}
+supabaseClient.auth.onAuthStateChange((_event, session) => {
+  if (session?.user) showSignedInApp(session.user);
+  else showSignedOutScreen();
+});
+(async function restoreAuthSession() {
+  try {
+    const { data, error } = await supabaseClient.auth.getSession();
+    if (error) throw error;
+    if (data.session?.user) showSignedInApp(data.session.user);
+    else showSignedOutScreen();
+  } catch (error) {
+    showSignedOutScreen();
+    showAuthError('Authentication could not initialize. Check your connection and reload the page.');
+  }
+})();
+
+const people=[
+{id:1,name:'Alex',age:27,initial:'A',bio:'Coffee before conversation. Here for chemistry, good banter, and seeing where things go.',looking:'Dating',interests:['Coffee','Music','Travel'],online:true,kind:'New'},
+{id:2,name:'Jordan',age:24,initial:'J',bio:'Gym, late-night playlists, and a soft spot for confident people.',looking:'Everything',interests:['Fitness','Music','Movies'],online:true,kind:'Online'},
+{id:3,name:'Mateo',age:29,initial:'M',bio:'Foodie who will absolutely steal a fry. Let’s find a new favorite spot.',looking:'Friends',interests:['Food','Art','Outdoors'],online:false,kind:'New'},
+{id:4,name:'Noah',age:26,initial:'N',bio:'Low-key, curious, and always down for a spontaneous plan.',looking:'Hookups',interests:['Hiking','Gaming','Coffee'],online:true,kind:'Online'},
+{id:5,name:'Eli',age:31,initial:'E',bio:'Looking for real conversation and a reason to delete this app eventually.',looking:'Dating',interests:['Books','Cooking','Dogs'],online:false,kind:'New'},
+{id:6,name:'Sam',age:23,initial:'S',bio:'Flirty, friendly, and here to meet people outside my usual circle.',looking:'Chat',interests:['Dance','Fashion','Music'],online:true,kind:'Online'}
+];let likes=JSON.parse(localStorage.getItem('unknownLikes')||'[]'),blocked=JSON.parse(localStorage.getItem('unknownBlocked')||'[]'),chats=JSON.parse(localStorage.getItem('unknownChats')||'{}'),filter='All',filters={min:18,max:45,looking:'Any'},currentPerson=null,currentChat=null;
+function persist(){localStorage.setItem('unknownLikes',JSON.stringify(likes));localStorage.setItem('unknownBlocked',JSON.stringify(blocked));localStorage.setItem('unknownChats',JSON.stringify(chats))}function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===id));if(id==='likes')renderLikes();if(id==='messages')renderChats();window.scrollTo(0,0)}
+function setFilter(el,f){filter=f;document.querySelectorAll('.toolbar .pill').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderPeople()}
+function filteredPeople(){return people.filter(p=>!blocked.includes(p.id)&&p.age>=filters.min&&p.age<=filters.max&&(filters.looking==='Any'||p.looking===filters.looking)&&(filter!=='Online'||p.online)&&(filter!=='New'||p.kind==='New'))}
+function personCard(p){return `<article class="person"><div class="avatar-art">${p.initial}</div><div class="person-info"><div class="person-name">${esc(p.name)}, ${p.age}</div><div class="person-meta">${p.online?'<span class="online"></span>Online now':'Recently active'} · ${esc(p.looking)}</div><div class="card-actions"><button class="smallbtn" onclick="event.stopPropagation();toggleLike(${p.id})">${likes.includes(p.id)?'♥ Saved':'♡ Like'}</button><button class="smallbtn primary" onclick="event.stopPropagation();openPerson(${p.id})">View</button></div></div></article>`}
+function renderPeople(){let list=filteredPeople();document.getElementById('peopleGrid').innerHTML=list.map(personCard).join('')||'<div class="empty" style="grid-column:1/-1">No profiles match those filters. Try widening your search.</div>';document.getElementById('resultCount').textContent=list.length+' demo profiles'}function renderLikes(){let list=people.filter(p=>likes.includes(p.id)&&!blocked.includes(p.id));document.getElementById('likesGrid').innerHTML=list.map(personCard).join('');document.getElementById('likesEmpty').style.display=list.length?'none':'block'}
+function toggleLike(id){likes=likes.includes(id)?likes.filter(x=>x!==id):[...likes,id];persist();renderPeople();renderLikes();toast(likes.includes(id)?'Saved to your likes.':'Removed from your likes.')}function openPerson(id){currentPerson=people.find(p=>p.id===id);if(!currentPerson)return;let p=currentPerson;document.getElementById('modalContent').innerHTML=`<div class="profile-hero" style="height:210px;margin:15px 0">${p.initial}</div><h1 class="title">${esc(p.name)}, ${p.age}</h1><p class="sub">${p.online?'<span class="online"></span>Online now':'Recently active'} · ${esc(p.looking)}</p><p>${esc(p.bio)}</p><div class="tagrow">${p.interests.map(x=>`<span class="tag">${esc(x)}</span>`).join('')}</div><div class="btnrow"><button class="btn secondary" onclick="toggleLike(${p.id});openPerson(${p.id})">${likes.includes(p.id)?'♥ Saved':'♡ Like'}</button><button class="btn" onclick="startChat(${p.id})">Say hello</button></div><div class="divider"></div><button class="btn secondary" onclick="reportPerson(${p.id})">Report profile</button><p class="notice">Demo profile: this is not a real person. Distance is intentionally not shown.</p>`;openModal('profileModal')}
+function openFilters(){openModal('filtersModal')}function applyFilters(){filters.min=Math.max(18,Number(document.getElementById('ageMin').value)||18);filters.max=Math.min(99,Number(document.getElementById('ageMax').value)||99);filters.looking=document.getElementById('filterLooking').value;if(filters.max<filters.min){toast('Maximum age must be greater than minimum.');return}closeModal('filtersModal');showPage('discover');renderPeople()}
+function openModal(id){document.getElementById(id).classList.add('open')}function closeModal(id){document.getElementById(id).classList.remove('open')}function outsideClose(e,id){if(e.target.id===id)closeModal(id)}function toast(t){let el=document.getElementById('toast');el.textContent=t;el.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.classList.remove('show'),2100)}
+function startChat(id){currentPerson=people.find(p=>p.id===id);if(!currentPerson)return;currentChat=id;if(!chats[id])chats[id]=[{mine:false,text:'Hey! Thanks for saying hi. This is a demo conversation.'}];persist();closeModal('profileModal');showChat(id)}function showChat(id){currentChat=id;let p=people.find(x=>x.id===id);document.getElementById('chatTitle').textContent=p.name;renderChatMessages();openModal('chatModal')}function renderChatMessages(){let arr=chats[currentChat]||[];document.getElementById('chatMessages').innerHTML=arr.map(m=>`<div class="msg ${m.mine?'mine':''}">${esc(m.text)}</div>`).join('');document.getElementById('chatMessages').scrollTop=99999}function sendMessage(){let input=document.getElementById('chatInput'),v=input.value.trim();if(!v||currentChat==null)return;chats[currentChat]=chats[currentChat]||[];chats[currentChat].push({mine:true,text:v});input.value='';persist();renderChatMessages();renderChats()}function renderChats(){let ids=Object.keys(chats).filter(id=>!blocked.includes(Number(id)));document.getElementById('chatList').innerHTML=ids.map(id=>{let p=people.find(x=>x.id===Number(id)),last=chats[id].slice(-1)[0];return `<button class="chatitem" onclick="showChat(${id})"><div class="bubble-avatar">${p.initial}</div><div class="chatcopy"><strong>${esc(p.name)}</strong><small>${esc(last?.text||'Start a conversation')}</small></div><span class="time">Demo</span></button>`}).join('');document.getElementById('chatEmpty').style.display=ids.length?'none':'block'}
+function reportPerson(id){if(!confirm('Report this demo profile? It will be blocked on this device.'))return;blocked=[...new Set([...blocked,id])];likes=likes.filter(x=>x!==id);delete chats[id];persist();closeModal('profileModal');renderPeople();renderLikes();renderChats();toast('Profile blocked in this demo.')}function openSafety(){let el=document.getElementById('blockedList');el.innerHTML=blocked.length?blocked.map(id=>{let p=people.find(x=>x.id===id);return `<div class="chatitem"><div class="bubble-avatar">${p?.initial||'?'}</div><div class="chatcopy"><strong>${esc(p?.name||'Profile')}</strong><small>Blocked on this device</small></div><button class="smallbtn" onclick="unblock(${id})">Unblock</button></div>`}).join(''):'<div class="empty">No blocked demo profiles.</div>';openModal('safetyModal')}function unblock(id){blocked=blocked.filter(x=>x!==id);persist();openSafety();renderPeople();toast('Profile unblocked.')}
+function saveProfile(){let age=Number(document.getElementById('myAge').value);if(age&&age<18){toast('UNKNOWN is for adults 18+ only.');return}let data={name:document.getElementById('myName').value.trim(),age,bio:document.getElementById('myBio').value.trim(),looking:document.getElementById('myLooking').value,interests:document.getElementById('myInterests').value.trim()};localStorage.setItem('unknownProfile',JSON.stringify(data));toast('Profile saved on this device.')}function loadProfile(){let d=JSON.parse(localStorage.getItem('unknownProfile')||'{}');if(d.name)document.getElementById('myName').value=d.name;if(d.age)document.getElementById('myAge').value=d.age;if(d.bio)document.getElementById('myBio').value=d.bio;if(d.looking)document.getElementById('myLooking').value=d.looking;if(d.interests)document.getElementById('myInterests').value=d.interests}
+renderPeople();renderLikes();renderChats();loadProfile();
+</script></body></html>
